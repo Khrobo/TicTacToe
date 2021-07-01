@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 35px;
+}
+body {
+    background: #33266E;
+}
+header {
+    background: #111;
+    color: #806543;
+    display: flex;
+    justify-content: center;
+    padding: .7rem;
+    border-bottom: 1px solid #806543;
+}
+h1 {
+    font-size: 1.5rem;
+}
+
+.contain-btns {
+    width: 300px;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+.btns {
+    background: #806543;
+    font-size: .6rem;
+    cursor: pointer;
+    border-color: transparent;
+    padding: .2rem;
+}
+.fa-robot, .fa-users {
+    margin-left: .3rem;
+    font-size: .6rem;
+}
+.board {
+    border: 2px solid #806543;
+    width: 380px;
+    height: 340px;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+.block {
+    background: #111;
+    border: 1px solid #806543;
+    transition: background;
+    cursor: pointer;
+    text-align: center;
+    width: 125.33px;
+    height: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.block:hover {
+    background: #202020;
+}
+.restart {
+    text-align: center;
+}
+
+/* JS Additions */
+
+.fa-times, .fa-circle {
+    font-size: 2rem;
+    pointer-events: none;
+}
