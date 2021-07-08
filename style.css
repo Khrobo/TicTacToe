@@ -25,6 +25,9 @@ h1 {
     display: flex;
     justify-content: space-between;
 }
+.c-btn {
+    visibility: hidden;
+}
 .btns {
     background: #806543;
     font-size: .6rem;
@@ -63,6 +66,11 @@ h1 {
 }
 .restart {
     text-align: center;
+}
+.announce {
+    text-align: center;
+    margin-bottom: 1rem;
+    visibility: hidden;
 }
 
 /* JS Additions */
